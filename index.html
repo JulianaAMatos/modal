@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script> 
+    
+</head>
+<body>
+    
+    <button onclick="abrirModal()" class="btn">Agendar descarte</button>
+    <div class="janela-modal" id="janela-modal">
+       <div class="modal">
+        <form action="" id="form">
+        <div class="input-box-user">
+         <h1>Agende seu descarte</h1>
+         <label for="data" class="data">Escolha o dia:</label>
+          <input class="input-data" type="date" id="data"  min="2024-07-02" required>
+        </div>
+        <div class="input-box-user">
+          <label for="time" class="hora">Horario:</label>
+          <input class="input-hora" type="time" id="hora" min="9:00" max="18:00">
+        </div>
+          <div>
+                <div class="input-box-user">
+                    <label for="logradouro" class="logradouro">Logradouro:</label>
+                    <input type="text" id="logradouro" name="rua" required>
+                </div>
+
+                <div class="input-box-user">
+                    <label for="number" class="number">Número:</label>
+                    <input type="number" id="number" name="number" required>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="input-box-user">
+                    <label for="complement" class="complement">Complemento:</label>
+                    <input type="text" id="complement" name="complement">
+                </div>
+
+                <div class="input-box-user">
+                    <label for="bairro" class="bairro">Bairro:</label>
+                    <input type="text" id="bairro" name="bairro" required>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="input-box-user">
+                    <label for="city" class="cidade">Cidade:</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+
+                <div class="input-box-user">
+                    <label for="uf" class="uf">UF:</label>
+                    <input type="text" id="uf" name="uf" required>
+                </div>
+          </div>
+          <div>
+          <button id="close" type="submit">Agendar</button>
+          </div>
+        </form>
+       </div>
+    </div>
+
+
+</body>
+</html>
+

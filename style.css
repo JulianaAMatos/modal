@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(istockphoto-925362706-612x612.jpg);
+}
+
+.janela-modal{
+  position: relative;
+  top:0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  background-color: rgba(0, 0,0, 0.3);
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.input-box-user{
+    display: inline;
+   font-size: 20px;
+   padding: 60px;
+}
+h1{
+    margin-left: 60px;
+}
+
+#logradouro{
+    width: 20%;
+    height: 40px;
+}
+
+#complement{
+    width: 20%;
+    height: 40px;
+}
+#city{
+    width: 20%;
+    height: 40px;
+}
+
+#number{
+    width: 20%;
+    height: 40px;
+}
+#bairro{
+    width: 20%;
+    height: 40px;
+}
+#uf{
+    width: 20%;
+    height: 40px;
+    position: relative;
+}
+
+.modal{
+    background-color:  #09aa64;
+    padding: 30px 50px;
+    width: 60%;
+    min-width: 450px;
+    min-height: 200px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+.janela-modal.abrir{
+    display: flex;
+}
+hr{
+    width:100%;
+    background-color: rgb(58, 55, 55);
+}
+
+.input-data{
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+.input-hora{
+    width: 20%;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -30px;
+    align-items: center;
+}
+
+.input-box-user input {
+    position: relative;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+    border-radius: 6px;
+    
+}
+.data{
+    margin-left: 30px;
+    position: relative;
+}
+.hora{
+    margin-left: -70px;
+    position: relative;
+}
+
+.cidade{
+    margin-left: 20px;
+    position: relative;
+}
+
+.complement{
+    margin-left: -35px;
+    position: relative;
+}
+
+.uf{
+    margin-left: -30px;
+    
+}
+.bairro{
+    margin-left: -60px;
+    position: relative;
+}
+
+.logradouro{
+    margin-left: -15px;
+    position: relative;
+}
+
+.number{
+    margin-left: -70px;
+    position: relative;
+}
+
+#close{
+    width: 30%;
+    margin-top: 20px;
+    height: 40px;
+    margin-left: 30px;
+    font-size: 25px;
+    background-color: #024430;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+.modal-container.abrir{
+    display: flex;
+}
+
+
